@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(120deg, #b42e3c, #7e3578);
+    background-size: contain;
+}
+
+main{
+    margin-top: 70px;
+    margin-inline:auto;
+    display: grid;
+    width:1000px ;
+    grid-template-columns: 500px 500px;
+    height: 85vh;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.player{
+    text-align: center;
+}
+
+.changePlayer{
+    background:rgba(255, 255, 255, 0.5);
+}
+
+.nomDuJoueur{
+    margin-top: 80px;
+    font-family: "Arial Nova Light", sans-serif;
+    font-size: 50px;
+}
+
+.scoreF{
+    font-size: 100px;
+    color: #c6365e
+}
+
+.part2{
+    background-color: #c6365e;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.current{
+    margin-top: 150px;
+    padding: 30px 0 20px 0;
+
+}
+
+.scoreC{
+    font-size: 70px;
+}
+
+#outils{
+    margin: 0 0 0 640px;
+
+}
+
+#outils div{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 40px;
+    position: absolute ;
+    width: 250px;
+    cursor: pointer;
+}
+#newGame{
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+#roolDice{
+    margin-top: 400px;
+    background-color: white;
+
+}
+
+#hold{
+    margin-top: 500px;
+    background-color: white;
+
+}
+
+#dice{
+    margin-top: 150px;
+}
+
+.imgDice{
+    width: 150px;
+    height: 150px;
+}
+
+#newGame button{
+    font-size: 25px;
+    border: none;
+    background: white;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1000px) {
+    #outils{
+        margin: 0 0 0 370px;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #outils{
+        margin: 0 0 0 460px;
+
+    }
+}
